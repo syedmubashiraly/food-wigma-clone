@@ -1,0 +1,392 @@
+
+/* Navbar start*/
+
+.css-grid{
+    background: rgb(249,250,254);
+background: linear-gradient(113deg, rgba(249,250,254,1) 0%, rgba(249,250,254,1) 40%, rgba(250,243,228,1) 83%, rgba(249,250,254,1) 95%);
+}
+.head-logo {
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(243, 80, 5), rgb(230, 189, 8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.input-container {
+    position: relative;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: small;
+}
+.search_icon_nav {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    color: #fbb30c;
+    font-size: 17px;
+}
+.input-container input {
+    padding-left: 45px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 10px;
+    margin-right: -100px;
+    background: #ffffff;
+    color: #fbb30c;
+    font-weight: bold;
+    
+}
+.nav{
+    justify-content: center;
+    margin-right: 180px;
+    
+}
+.nav img{
+    width: 28px;
+    height: 30px;
+}
+.nav a span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.nav P span{
+    font-size: px;
+    font-weight: bold;
+}
+.nav P i{
+    color: #fcba03;
+}
+.nav P{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 70px;
+}
+/* Navbar end */
+
+
+/* Hero section start */
+
+.first-img {
+    width: 100%; 
+    height: 550px;
+    margin-top: 150px;
+}
+.first-section{
+    background-color: #fbb30c;
+}
+.heading {
+    font-size: 60px;
+    color: white;
+    margin-top: 150px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    
+}
+.hero-para{
+    font-size: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bolder;
+    color: #616161;
+}
+.card-btn {
+    background-color: #f17228;
+    color: white;
+}
+.anker {
+    background-color: rgb(241, 114, 40);
+    color: white;
+}
+.card-input {
+    color: rgb(66, 66, 66);
+    justify-content: right;
+}
+.input-container-2 {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 360px;
+}
+.search_icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color:rgb(241, 114, 40);
+    font-size: 17px;
+}
+.input-container-2 input {
+    padding-left: 25px;
+    height: 40px;
+    border: none;
+    background: rgb(245, 239, 239);
+}
+.food-btn {
+    margin-left: 550px;
+    margin-top: -40px;
+    mask-repeat: no-repeat;
+}
+
+/* .nav-btn {
+    background: rgb(241, 114, 40, 0.3);
+    color: rgb(241, 114, 40);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-left: 70px;
+    
+}
+.nav-btn :hover {
+    
+    color: rgb(241, 114, 40);
+}
+.nav-pk {
+    color: rgb(241, 114, 40);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    margin-right: ;
+} */
+.delivery-btn {
+    background: rgb(241, 114, 40, 0.2);
+    color: rgb(241, 114, 40);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    /* margin-left: 70px; */
+    font-weight: 500;
+    margin-right: 200px;
+}
+.Pickup-btn:hover {
+    color: black;
+}
+.bike{
+    font-size: 23px;
+    padding-right: 10px;
+    padding-top: -15px;
+    color: rgb(241, 114, 40);
+}
+.Pickup-btn {
+    margin-left: 30px;
+    margin-top: -40px;
+    color: black;
+}
+/* Hero section end */
+
+/* New Section */
+
+ .span-card {
+    font-size: 50px;
+    margin-top: 10px;  
+ }
+ .border-card {
+    border: none;
+ }
+ .span-card-off {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -3px;
+ }
+.span-card-p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.text-highlight {
+    background-color: rgb(241, 114, 40, 0.2);
+    color: f17228;
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 190px;
+}
+/* New Section end */
+
+
+/* New Section */
+
+.third-section {
+    background: rgba(241, 204, 40, 0.1);
+}
+.third-container {
+    margin-bottom: -190px;
+}
+.main-heading {
+    color: #f17228;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    margin-top: 80px;
+}
+.install-head {
+    margin-top: 300px;
+    margin-bottom: -100px;
+}
+.para-light {
+    color: rgb(14, 13, 13, 0.6);
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-border {
+    border: none;
+    border-radius: 30px;
+    margin-top: 150px;
+}
+/* New section end */
+
+/* New-Section Start */
+
+.main-heading-ag {
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.img-btn {
+    background-color: #f17228;
+    color: white;
+    width: 220px;
+    font-weight: bolder;
+}
+.featured-icon {
+    font-size: 15px;
+}
+.tag {
+    font-size: 15px;
+    margin-left: 5px;
+}
+.imgs {
+    justify-content: center;
+}
+.card-heading {
+    font-size: large;
+    font-weight: bold;
+    margin-top: 15px;
+}
+/* New Section End */
+
+ /* section */
+
+ .Featured-head {
+    margin-top: 100px;
+    font-size: 35px;
+ }
+ .Featured-card {
+    margin-top: -400px;
+ }
+ .text-highlight-2 {
+    background-color: #ebf5e2;
+    color: #82bf48;
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 190px;
+
+ }
+ /* section end */
+
+/* section start */
+
+.main-head {
+    font-weight: 700;
+    font-family: "IBM Plex Sans", sans-serif ;
+    font-size: 37px;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+/* section end */
+
+/* section start */
+
+.phone-heading {
+    color: #ffb30e;
+    font-weight: bolder;
+}
+/* section end */
+
+/* section start */
+
+.cont {
+    margin-top: 130px;
+}
+.menu-card {
+    border: none;
+}
+.bg-c-img {
+    width: 1063;
+    height: 461px;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: 17px;
+
+}
+
+.card-para {
+    font-size: 2px;
+    color: 424242;
+}
+.card-head {
+    font-size: 36;
+    text-align: start;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+.btn-card {
+    width: 350px;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+} 
+ /* section end */
+
+ /* section start */
+.bg-2-img {
+    margin-left: -4px;
+}
+.cont-2 {
+    margin-top: 50px;
+}
+/* section :end */
+
+/* footer */
+footer{
+    background-color: 212121;
+}
+footer ul li a {
+    color: white;
+}
+.about-uss {
+    padding-top: 20px;
+}  
+.social-icon {
+    color: bdbdbd;
+    font-size: 18px;
+    font-weight: bold;
+}
+.mailbox {
+    color: bdbdbd;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+ul li i {
+    color: bdbdbd;
+    font-size: x-large;
+    margin-left: -8px;
+}    
+.last-btn {
+    width: 150px;
+    background-color: #fbb30c;
+    color: white;
+    font-weight: bold;
+    margin-top: 1px;    
+}             
+                                                                 

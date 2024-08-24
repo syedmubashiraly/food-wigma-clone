@@ -1,0 +1,701 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- Nav Section -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary css-grid">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse box nav" id="navbarTogglerDemo01">
+            <img class="logo" src="assets/logo.png" alt="logo">&nbsp;<a class="navbar-brand" href="#"><span class="head-logo">foodwaGon</span></a>
+            <p ><span>Deliver to:</span>&nbsp;<i class="bi bi-geo-alt-fill"></i> Current Location <span>Mirpur 1 Bus Stand, Dhaka</span></p>
+            <form class="d-flex" role="search">
+              <span class="d-flex align-items-center gap-2"><div class="input-container"><input type="text" placeholder="Search Food" class="form-control"> <i class="bi bi-search search_icon_nav"></i></div> 
+                <button class="btn" type="submit"><i class="bi bi-person-fill"></i> Login</button></span>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section Start -->
+
+      <section class="py-5 overflow-hidden first-section" >
+        <div class="container">
+         <div class="row flex-centre sub-container">
+          <div class="col-md-5 col-lg-6 order-0 order-md-1 mt-8 mt-md-0 img.cont"><img class="float-start first-img" src="assets/hero-header.png" alt=""></div>
+          <div class="col-md-5 col-lg-6 py-8 text-md-start text-center">
+            <h1 class="display-2 fs-md-5 fs-lg-6 fs-xl-8 heading">Are you starving?</h1>
+            <h1 class="hero-para">Within a few clicks, find meals <br>that are accessible near you</h1><br><br>
+            
+            <!-- card -->
+            <div class="card text-center" style="width: 550px; height: 150px;">
+              <div class="card-header nav-btn">
+                <ul class="nav nav-pills card-header-pills list-unstyled">
+                  <li class="nav-item">
+                    <button class="nav-link anker delivery-btn" type="submit" id="nav-profile-tab" href=""><i class="bi bi-bicycle bike"></i>Delivery</button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link text-secondary Pickup-btn" type="submit" id="nav-home-tab" href="#"><i class="bi bi-bag-dash-fill bag"></i>&nbsp;Pickup</button>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <ul class="nav nav-pills ">
+                  <li class="nav-item"><span class="d-flex align-items-center gap-2 "><div class="input-container-2"><input type="text" placeholder="Enter Your Address" class="form-control"> <i class="bi bi-geo-alt-fill search_icon"></i></div></span></li>
+                  <li class="nav-item food-btn"><a class="nav-link anker" style="width: 150px; height: 40px;" href="#" class="btn card-btn">Find Food</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section><br><br><br><br>
+
+      <!-- Hero Section Ends -->
+
+      <!-- Section start -->
+       
+      <section class="py-0">
+      <div class="container third-container">
+        <div class="row h-100 gx-2 mt-7">
+
+          <!-- first-card -->
+          <div class="col-sm-6 col-lg-3 h-100 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card border-card">
+            <div class="position-relative"><img class="img-fluid rounded-3  w-100" src="assets/2nd-sec/card-1.png" alt="">
+            <div class="card-actions">
+              <div class="badge bg-warning" style="margin-top: -80px; height: 80px; width: 120px;">
+                <div class="d-flex flex-between-center">
+                  <div class="text-white span-card">15</div>
+                  <div class="text-white span-card-p">%
+                    <div class="span-card-off">Off</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold">Flat Hill Slingback</h5><span class="badge text-highlight"><span class="">6 days Remaining</span></span>
+            </div><a class="stretched-link" href="#"></a>
+          </div>
+          </div>
+
+          <!-- second-card -->
+          <div class="col-sm-6 col-lg-3 h-100 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card  border-card">
+            <div class="position-relative"><img class="img-fluid rounded-3 w-100" src="assets/2nd-sec/card-2.png" alt="">
+              <div class="card-actions">
+                <div class="badge bg-warning" style="margin-top: -80px; height: 80px; width: 120px;">
+                  <div class="d-flex flex-between-center">
+                    <div class="text-white span-card">10</div>
+                    <div class="text-white span-card-p">%
+                      <div class="span-card-off">Off</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold">Flat Hill Slingback</h5><span class="badge text-highlight"><span class="">6 days Remaining</span></span>
+            </div><a class="stretched-link" href="#"></a>
+          </div>
+          </div>
+
+          <!-- third-card -->
+          <div class="col-sm-6 col-lg-3 h-100 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card border-card">
+            <div class="position-relative"><img class="img-fluid rounded-4 w-100" src="assets/2nd-sec/card-3.png" alt="">
+              <div class="card-actions">
+                <div class="badge bg-warning" style="margin-top: -80px; height: 80px; width: 120px;">
+                  <div class="d-flex flex-between-center">
+                    <div class="text-white span-card">25</div>
+                    <div class="text-white span-card-p">%
+                      <div class="span-card-off">Off</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold">Flat Hill Slingback</h5><span class="badge text-highlight"><span class="">6 days Remaining</span></span>
+            </div><a class="stretched-link" href="#"></a>
+          </div>
+          </div>
+
+          <!-- fourth-card -->
+          <div class="col-sm-6 col-lg-3 h-100 mb-3 mb-md-0 h-100 pb-4">
+            <div class="card border-card">
+            <div class="position-relative"><img class="img-fluid rounded-4 w-100" src="assets/2nd-sec/card-4.png" alt="">
+              <div class="card-actions">
+                <div class="badge bg-warning" style="margin-top: -80px; height: 80px; width: 120px;">
+                  <div class="d-flex flex-between-center">
+                    <div class="text-white span-card">20</div>
+                    <div class="text-white span-card-p">%
+                      <div class="span-card-off">Off</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body px-0">
+              <h5 class="fw-bold">Flat Hill Slingback</h5><span class="badge text-highlight"><span class="">6 days Remaining</span></span>
+            </div><a class="stretched-link" href="#"></a>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+       <!-- Section End -->
+
+       <!-- new section -->
+
+       <section class="third-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-9">
+              <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
+                <h3 class="main-heading fw-bold">How does it work</h3>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="" src="assets/3-sec/Location__HD_-removebg-preview.png" height="200px" alt="..." />
+                    <h5 class="mt-4 fw-bold">Select location</h5>
+                    <p class="mb-md-0 para-light">Choose the location where your food will be delivered.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="" src="assets/3-sec/Food_Order__HD_-removebg-preview.png" height="200px" alt="..." />
+                    <h5 class="mt-4 fw-bold">Choose order</h5>
+                    <p class="mb-md-0 para-light">Check over hundreds of menus to pick your favorite food</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="" src="assets/3-sec/Card_Swipe_Machine_With_Debit_Card_3D_Scene__HD_-removebg-preview.png" height="200px" alt="..." />
+                    <h5 class="mt-4 fw-bold">Pay advanced</h5>
+                    <p class="mb-md-0 para-light">It's quick, safe, and simple. Select several methods of payment</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-6">
+                  <div class="text-center"><img class="" src="assets/3-sec/Donut__HD_-removebg-preview.png" height="200px" alt="..." />
+                    <h5 class="mt-4 fw-bold">Enjoy meals</h5>
+                    <p class="mb-md-0 para-light">Food is made and delivered directly to your home.</p>
+                  </div>
+                </div>
+        </div>
+       </section>
+       <!-- section end -->
+
+       <!-- Section Start -->
+
+       <section>
+        <div class="container ">
+          <div class="row h-100 gx-2 mt-7 imgs">
+              <h3 class="main-heading-ag">Popular items</h3>
+            
+            
+            <!-- first-card -->
+          <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 ">
+            <div><img class="img-fluid rounded-4 img1" src="assets/4-sec/cheese-burger.png" width="300px" height="300px" alt=""></div>
+              <h5 class="card-heading">Cheese Burger</h5>
+              <span class="text-warning"><i class="bi bi-geo-alt-fill"></i>Burger Arena</span><br>
+              <span class="fw-bold">$3.88</span><br>
+              <a href="#" class="btn img-btn">Order now</a>
+          </div>
+
+          <!-- second-card -->
+          <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 ">
+            <div><img class="img-fluid rounded-4 img2" src="assets/4-sec/crispy-sandwitch.png" width="300px" height="300px" alt=""></div>
+            <h5 class="card-heading">Toffe's Cake</h5>
+              <span class="text-warning"><i class="bi bi-geo-alt-fill"></i>Top Sticks</span><br>
+              <span class="fw-bold">$4.00</span><br>
+              <a href="#" class="btn img-btn">Order now</a>
+              <!--   -->
+          </div>
+
+          <!-- third-card -->
+          <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 ">
+            <div><img class="img-fluid rounded-4 img3" src="assets/4-sec/dancake.png" width="300pxpx" height="300pxpx" alt=""></div>
+            <h5 class="card-heading">Dancake </h5>
+              <span class="text-warning"><i class="bi bi-geo-alt-fill"></i>Cake World</span><br>
+              <span class="fw-bold">1.99</span><br>
+              <a href="#" class="btn img-btn">Order now</a>
+              <!--   -->
+          </div>
+
+          <!-- fourth-card -->
+          <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 ">
+            <div><img class="img-fluid rounded-4 img4" src="assets/4-sec/thai-soup.png" width="300pxpx" height="300pxpx" alt=""></div>
+            <h5 class="card-heading">Crispy Sandwitch</h5>
+              <span class="text-warning"><i class="bi bi-geo-alt-fill"></i>Fastfood Dine</span><br>
+              <span class="fw-bold">$3.00</span><br>
+              <a href="#" class="btn img-btn">Order now</a>
+              <!--   -->
+          </div>
+           <!-- fifth-card -->
+           <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 ">
+            <div><img class="img-fluid rounded-4 img5" src="assets/4-sec/toffes-cake.png" width="300px" height="300px" alt=""></div>
+            <h5 class="card-heading">Thai Soup</h5>
+              <span class="text-warning"><i class="bi bi-geo-alt-fill"></i>Foody Man</span><br>
+              <span class="fw-bold">$2.79</span><br>
+              <a href="#" class="btn img-btn ">Order now</a>
+              <!--   -->
+          </div>
+          </div>
+        </div>
+        </div>
+       </section>
+        <!-- Section End -->
+
+        <!-- section start -->
+         
+        <section>
+          <div class="container">
+            <div class="row h-100">
+              <div class="col-lg-7 mx-auto text-center mb-6">
+                <h5 class="fw-bold fs-lg-5 lh-sm mb-3 Featured-head">Featured Restaurants</h5>
+              </div>
+            </div>
+
+            <!-- 1st card -->
+            <div class="row gx-2   Featured-card">
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3" style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/food-world.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/food-world-logo.png" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Food world</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">46</span>
+                      </div>
+                    </div><span class="badge text-highlight p-2"><span class="fw-bold">Opens Tomorrow</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2nd card -->
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3" style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/pizza-hub.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/pizzahub-logo.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Pizza hub</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">40</span>
+                      </div>
+                    </div><span class="badge text-highlight p-2"><span class="fw-bold">Opens Tomorrow</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3rd card -->
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3"  style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/donuts-hut.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/donuts-hut-logo.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Donuts hut</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">20</span>
+                      </div>
+                    </div><span class="badge text-highlight-2 p-2"><span class="fw-bold">Open Now</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4th card -->
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3"  style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/donuthut.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/donut-hut-logo.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Donuts hut</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">50</span>
+                      </div>
+                    </div><span class="badge text-highlight-2 p-2"><span class="fw-bold">Open Now</span></span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- 5th card -->
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3"  style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/ruby-tuesday.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/ruby-tuesday-logo.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Ruby tuesday</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">50</span>
+                      </div>
+                    </div><span class="badge text-highlight-2 p-2"><span class="fw-bold">Open Now</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6th card -->
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3"  style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/kuakata.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/kuakata-logo.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Kuakata Fried Chicken</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">50</span>
+                      </div>
+                    </div><span class="badge text-highlight-2 p-2"><span class="fw-bold">Open Now</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 7th card -->
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3"  style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/red-square.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/red-square-logo.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Kuakata Fried Chicken</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">50</span>
+                      </div>
+                    </div><span class="badge text-highlight-2 p-2"><span class="fw-bold">Open Now</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 8th card -->
+              <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                <div class="card card-span h-100 text-white rounded-3"  style="border: none;"><img class="img-fluid rounded-3 h-100" src="assets/8-sec/taco-bell.png" alt="..." />
+                  <div class="card-img-overlay ps-0"><span class="badge p-2 ms-3" style="background: #f17228;"><i class="bi bi-tag-fill featured-icon"></i><span class="fs-0 tag">20% off</span></span><span class="badge bg-warning ms-2 me-1 p-2"><i class="bi bi-clock-fill featured-icon"></i><span class="fs-0 tag">Fast</span></span></div>
+                  <div class="card-body ps-0">
+                    <div class="d-flex align-items-center mb-3"><img class="img-fluid" src="assets/8.2/taco-bell-logo.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h5 class="fw-bold text-dark">Taco bell</h5><span class="text-warning fs--1 me-1"><i class="bi bi-star-fill"></i></span><span class="mb-0 text-warning">50</span>
+                      </div>
+                    </div><span class="badge text-highlight-2 p-2"><span class="fw-bold">Open Now</span></span>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </section>
+
+         <!-- section end -->
+
+        <!-- section start -->
+         <section>
+          <div class="container">
+            <div class="row h-100 gx-2 mt-7">
+              <div class="col-lg-7">
+                <h1 class="main-head fw-bolder" style="margin-right: 90px;">Search by Food</h1>
+              </div>
+
+              <div class="row flex-center">
+                <div class="col-12">
+                  <div class="row h-100 align-items-center">
+                <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 circle-img text-center fw-bold">
+                  <img src="assets/5-sec/search-pizza.png" class="rounded-circle" alt="..." width="150px">
+                  <span>pizza</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 text-center fw-bold">
+                  <img src="assets/5-sec/burger.png" class="rounded-circle" alt="..." width="150px">
+                  <span>burger</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 text-center fw-bold">
+                  <img src="assets/5-sec/noodles.png" class="rounded-circle" alt="..." width="150px">
+                  <span>Noodles</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 text-center fw-bold">
+                  <img src="assets/5-sec/sub-sandwich.png" class="rounded-circle" alt="..." width="150px">
+                  <span>Sub-sandwiches</span>
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl mb-5 h-100 text-center fw-bold">
+                  <img src="assets/5-sec/chowmein.png" class="rounded-circle" alt="..." width="150px">
+                  <span>Chowmein</span>
+                </div>
+                <div class="col-sm-6 col-md-2 col-xl mb-5 h-100 text-center fw-bold">
+                  <img src="assets/5-sec/steak.png" class="rounded-circle" alt="..." width="150px">
+                  <span>Steak</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></div>
+         </section>
+         <!-- section end -->
+
+         <!-- Section Start -->
+
+         <section class="third-section">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xxl-10">
+                <div class="card card-border">
+                  <div class="card-body">
+                    <div class="row justify-content-evenly " style="margin-top: 35px;">
+                      <div class="col-md-3">
+                        <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"><img src="assets/6-sec/discounts.png" alt="" width="100px">
+                        <div class="d-flex d-lg-block d-xl-flex flex-center"><h5 class="fw-bolder text-1000 mb-0 head-logo" style="font-size: 30px; margin-top: 20px;">Daily <br> Discounts</h5></div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"><img src="assets/6-sec/live-tracking.png" alt="" width="100px">
+                      <div class="d-flex d-lg-block d-xl-flex flex-center"><h5 class="fw-bolder text-1000 mb-0 head-logo" style="font-size: 30px;  margin-top: 20px;">Live <br> Tracking</h5></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"><img src="assets/6-sec/quick-delivery.png" alt="" width="100px">
+                    <div class="d-flex d-lg-block d-xl-flex flex-center"><h5 class="fw-bolder text-1000 mb-0 head-logo" style="font-size: 30px;  margin-top: 20px;">Quick <br> Delivery</h5></div>
+                  </div>
+                </div>
+               </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row flex-center">
+              <div class="col-lg-5" style="margin-bottom: -122px;"> <img class="d-none " src="assets/6-sec/phone-cta-one.png" alt="..." /></div>
+              <div class="col-lg-5 install-head">
+                <h1 class="phone-heading">Install the app</h1>
+                <p>It's never been easier to order food. Look for the finest <br class="d-none d-xl-block" />discounts and you'll be lost in a world of delectable food.</p><a class="pe-2" href="https://www.apple.com/app-store/" target="_blank"><img src="assets/6-sec/apple.jpg" width="160" alt="" /></a><a href="https://play.google.com/store/apps" target="_blank"><img src="assets/6-sec/google.jpg" width="160" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffb30e" fill-opacity="1" d="M0,32L80,58.7C160,85,320,139,480,176C640,213,800,235,960,234.7C1120,235,1280,213,1360,202.7L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg></div>
+         </section>
+          <!-- Section End -->
+
+          <!-- section start -->
+
+          <section class="pb-5 pt-8">
+            <div class="container cont">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card mb-3 shadow menu-card">
+                    <div class="card-body py-0 ">
+                     <div class="row justify-content-center g-0">
+                        <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1">
+                          <img class="img-fluid w-100 fit-cover h-100 rounded-end rounded-md-end rounded-md-top-0 bg-c-img"  src="assets/7-sec/crispy-sandwiches.png" alt=""></div>
+                        <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5 ">
+                          <h5 class="card-title mt-xl-5 mb-4 card-head fs-xl-1">Best deals <span class="text-warning">Crispy Sandwiches</span></h5>
+                          <p class="fs-sm-4">Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p>
+                          <a href="#" class="btn btn-warning btn-card justify-content-md-center justify-content-sm-center">PROCEED TO ORDER</a>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+           <!-- section end -->
+
+           <!-- section start -->
+
+           <section class="py-0">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card card-span mb-3 shadow-lg menu-card">
+                    <div class="card-body py-0">
+                      <div class="row justify-content-center">
+                        <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-md-0">
+                          <img class="img-fluid w-100 fit-cover h-100 rounded-start rounded-md-start rounded-md-top-0 bg-2-img" src="assets/7-sec/fried-chicken.png" alt="..." /></div>
+                        <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5">
+                          <h5 class="card-title mt-xl-5 mb-4 card-head fs-xl-1">Celebrate parties with <span class="text-warning">Fried Chicken</span></h5>
+                          <p>Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.</p>
+                          <div class="d-grid bottom-0"><a href="#!" class="btn btn-warning btn-card justify-content-md-center justify-content-sm-center">PROCEED TO ORDER<i class="fas fa-chevron-right ms-2"></i></a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section>
+
+            <!-- section end -->
+
+            <!-- section start -->
+
+          <section class="pb-5 pt-8">
+            <div class="container cont-2">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card mb-3 shadow menu-card">
+                    <div class="card-body py-0 ">
+                     <div class="row justify-content-center g-0">
+                        <div class="col-md-5 col-xl-7 col-xxl-8 g-0 order-0 order-md-1">
+                          <img class="img-fluid w-100 fit-cover h-100 rounded-end rounded-md-end rounded-md-top-0 bg-c-img"  src="assets/7-sec/pizza.png" alt=""></div>
+                        <div class="col-md-7 col-xl-5 col-xxl-4 p-4 p-lg-5 ">
+                          <h5 class="card-title mt-xl-5 mb-4 card-head fs-xl-1">Wanna eat hot & <span class="text-warning">spicy Pizza?</span></h5>
+                          <p class="fs-sm-4">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+                          <a href="#" class="btn btn-warning btn-card justify-content-md-center justify-content-sm-center">PROCEED TO ORDER</a>
+                         </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+           <!-- section end -->
+
+           <!-- footer -->
+
+           <footer class="py-5">
+            <div class="container">
+            <div class="row justify-content-lg-between about-uss">
+              <h5 style="color: white;">OUR TOP CITIES</h5>
+              <div class="col-2">
+                
+                <ul class="list-unstyled ">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">San Francisco</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Miami</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">San Diego</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">East Bay</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Long Beach</a></li>
+                </ul>
+              </div>
+
+              <div class="col-2">
+                
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Los Angeles</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Washington DC</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Seattle</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Portland</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Nashville</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-2">
+                
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">New York City</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Orange County</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Atlanta</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Charlotte</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Denver</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-2">
+                
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Chicago</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Phoenix</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Las Vegas</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Sacramento</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Oklahoma City</a></li>
+                </ul>
+              </div>
+
+              <div class="col-2">
+                
+                <ul class="list-unstyled mb-md-4 mb-lg-0">
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Columbus</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">New Mexico</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Albuquerque</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Sacramento</a></li>
+                  <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">New Orleans</a></li>
+                </ul>
+              </div>
+
+              <!-- section end -->
+
+              <div class="row justify-content-lg-between border-top">
+                <div class="col-2 about-uss">
+                  <h5 class="text-white">COMPANY</h5><br>
+                  <ul class="list-unstyled mb-md-4 mb-lg-0">
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">About Us</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Team</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Careers</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">blog</a></li>
+                  </ul>
+                </div>
+  
+                <div class="col-2 about-uss">
+                  <h5 class="text-white">CONTACT</h5><br>
+                  <ul class="list-unstyled mb-md-4 mb-lg-0">
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Help &amp; Support</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Partner with us </a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Ride with us</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Ride with us</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-2 about-uss">
+                  <h5 class="text-white">LEGAL</h5>br
+                  <ul class="list-unstyled mb-md-4 mb-lg-0">
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Terms &amp; Conditions</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Refund &amp; Cancellation</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Privacy Policy</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Cookie Policy</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-2 about-uss">
+                  <h5 class="text-white">LEGAL</h5>
+                  <ul class="list-unstyled mb-md-4 mb-lg-0">
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Terms &amp; Conditions</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Refund &amp; Cancellation</a></li>
+                    <li class="lh-lg"><a class="text-200 text-decoration-none" href="#!">Privacy Policy</a></li>
+                  </ul>
+                </div>
+
+              <div class=" justify-content-between py-4 my-4 ">
+                <h5 class=" social-icon">FOLLOW US</h5>
+                <ul class="list-unstyled d-flex mt-xl-4">
+                  
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-instagram"><use xlink:href="#instagram"/></i></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-facebook"><use xlink:href="#twitter"/></i></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-twitter"><use xlink:href="#facebook"/></i></a></li>
+                </ul>
+              </div>
+        
+              <div class="row">
+                <div class="col-5">
+                <form>
+                  <h5 class="mailbox">Receive exclusive offers and discounts in your mailbox</h5>
+                  <div class="d-flex w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email address</label>
+                    <input id="newsletter1" type="text"  style="width: 300px; height: 40px; border: none;" class="form-control placeholder bg-secondary text-white" placeholder="Email address">
+                    <button class="btn last-btn " type="button">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            </div>
+        
+            <div class="d-flex justify-content-start py-4 my-4 border-top">
+              <p class="text-white">All rights Reserved &copy; Your Company, 2021</p>
+            </div>
+          </div>
+          </footer>
+        </div>
+           <!-- footer -->
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
